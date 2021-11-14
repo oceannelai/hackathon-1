@@ -13,7 +13,7 @@
         }
         startWebCam();
     
-    //abc drag and drop
+    // drag and drop
 let image = document.getElementById('image');
 let img = document.createElement('img');
     img.setAttribute('src','/Users/admin/Desktop/hackathon/sunglasses/rayb4.png');
