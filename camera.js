@@ -14,6 +14,7 @@
         startWebCam();
     
      // drag and drop
+//image1
 
 let image = document.getElementById('image');
 let str = document.getElementById('myImage');
@@ -54,6 +55,7 @@ str.onmousedown = function(event) {
 str.ondragstart = function() {
   return false;
 };
+
 
 //image 2
 
@@ -96,5 +98,4 @@ str2.onmousedown = function(event) {
 str2.ondragstart = function() {
   return false;
 };
-
 
